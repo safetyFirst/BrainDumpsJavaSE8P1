@@ -6,6 +6,7 @@ public class Hauptklasse {
         int x = 5;
         while (isAvailable(x)) {
             System.out.print(x);
+            x--;
         }
     }
 
